@@ -1,0 +1,55 @@
+CREATE DATABASE school;
+
+
+
+CREATE TABLE student (
+    name VARCHAR(255),
+    class VARCHAR(255),
+    roll INT,
+    address VARCHAR(255),
+    phone BIGINT
+);
+
+CREATE TABLE teacher (
+    id INT,
+    name VARCHAR(255),
+    salary INT,
+    address VARCHAR(255),
+    phone BIGINT
+);
+
+CREATE TABLE ClAttendance (
+    class VARCHAR(255),
+    class_teacher VARCHAR(255),
+    total_student INT,
+    date DATE,
+    absentees INT
+);
+
+CREATE TABLE tattendance (
+    date DATE,
+    total_teacher INT,
+    absentees INT
+);
+
+CREATE TABLE Feestructure (
+    class VARCHAR(255),
+    monthly INT,
+    busfee INT,
+    scfee INT,
+    techfee INT,
+    total INT
+);
+
+CREATE TABLE library (
+    id INT,
+    title VARCHAR(255),
+    author VARCHAR(255),
+    publisher VARCHAR(255),
+    genre VARCHAR(255)
+);
+
+
+
+
+pip install mysql-connector-python

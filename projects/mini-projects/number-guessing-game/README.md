@@ -27,12 +27,6 @@ A fun and simple Python terminal game where the computer generates a random numb
 - 🥶 Very Far
 
 5. Guess within **5 attempts** to win.
-
----
-
-## 💻 Code Used
-
-- `random` module
 - `while loop`
 - `try-except`
 - `if-elif-else`

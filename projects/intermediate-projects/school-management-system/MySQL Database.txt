@@ -1,7 +1,5 @@
 CREATE DATABASE school;
 
-
-
 CREATE TABLE student (
     name VARCHAR(255),
     class VARCHAR(255),
@@ -49,7 +47,3 @@ CREATE TABLE library (
     genre VARCHAR(255)
 );
 
-
-
-
-pip install mysql-connector-python

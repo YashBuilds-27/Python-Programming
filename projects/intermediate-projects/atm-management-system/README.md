@@ -74,7 +74,7 @@ This project was made to improve understanding of:
 ## 👨‍🎓 Author
 
 Created by **Yash**
-First Year Student | Learning Python & Building Projects
+Learning Python & Building Projects
 
 ---
 

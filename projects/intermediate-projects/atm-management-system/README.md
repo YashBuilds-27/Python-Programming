@@ -27,16 +27,6 @@ This project was created as a learning project to practice programming fundament
 
 ---
 
-## 📂 Project Structure
-
-```text id="mqh6g7"
-ATM-Management-System/
-│── main.py
-│── accounts.json
-│── account_number.txt
-│── README.md
-```
-
 ## 📌 Main Menu
 
 ```text id="94t7j8"

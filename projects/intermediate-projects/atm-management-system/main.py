@@ -20,7 +20,7 @@ def check(acc,pin):
         print("\n❌ (X)    INVALID DETAILS ENTERED    (X)\n")
 
 def trans(acc,msg,amount):
-    time=f"{dt.datetime.now().strftime('%d-%m-%Y %I:%M:%S %p')} | {msg}: Rs. {amount}\n"
+    time=f"{dt.datetime.now().strftime('%d-%m-%Y %H:%M:%S %p')} | {msg}: Rs. {amount}\n"
     with open(acc+'.txt','a') as file:
         file.write(time)
 
